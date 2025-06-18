@@ -55,7 +55,6 @@ function register() {
     error.value = 'Wachtwoorden komen niet overeen.'
     return
   }
-  // Simpele opslag in localStorage (niet veilig voor productie)
   localStorage.setItem('user', JSON.stringify({ username: username.value, password: password.value }))
   success.value = true
   setTimeout(() => router.push('/login'), 1500)

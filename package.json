@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.9.0",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "vue-router": "^4.5.1"
